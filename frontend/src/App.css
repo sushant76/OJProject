@@ -1,0 +1,81 @@
+body{
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* vh stands for viewport height */
+}
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.footer{
+  text-align: center;
+}
+
+.divCenter,h1,h3{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.divRight{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.divLeft{
+  display: flex;
+  justify-content:left;
+  align-items:left;
+  text-align:left;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+.right{
+  width:auto;
+}
+.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
