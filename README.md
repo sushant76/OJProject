@@ -13,3 +13,5 @@ backend :
 -> nodemon server.js
 
 
+Screenshots are provided in screenshot folder
+
